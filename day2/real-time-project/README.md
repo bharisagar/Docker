@@ -293,6 +293,10 @@ Submit screenshots or terminal output for:
 
 Use these as references for what successful browser/API screenshots should look like.
 
+API home endpoint from the student run:
+
+![Docker Day 2 home endpoint evidence](../../evidence-screenshots/docker-day2-home-browser-user.png)
+
 Health endpoint:
 
 ![Docker Day 2 health endpoint](../../evidence-screenshots/docker-day2-health-api.png)
@@ -300,6 +304,14 @@ Health endpoint:
 Version endpoint:
 
 ![Docker Day 2 version endpoint](../../evidence-screenshots/docker-day2-version-api.png)
+
+Terminal evidence showing the built image:
+
+![Docker images terminal evidence](../../evidence-screenshots/docker-terminal-images-user.png)
+
+Terminal evidence showing running containers:
+
+![Docker ps terminal evidence](../../evidence-screenshots/docker-terminal-ps-user.png)
 
 ## Assessment Rubric
 

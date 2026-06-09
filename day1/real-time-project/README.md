@@ -201,6 +201,14 @@ Use this as a reference for what a successful browser screenshot should look lik
 
 ![Docker Day 1 status page](../../evidence-screenshots/docker-day1-status-page.png)
 
+Student-run browser evidence:
+
+![Docker Day 1 browser evidence](../../evidence-screenshots/docker-day1-status-browser-user.png)
+
+Terminal evidence showing both running containers:
+
+![Docker ps terminal evidence](../../evidence-screenshots/docker-terminal-ps-user.png)
+
 ## Assessment Rubric
 
 | Area | Points |
