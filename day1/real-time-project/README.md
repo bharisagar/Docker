@@ -195,6 +195,12 @@ Submit screenshots or terminal output for:
 7. `docker inspect --format='{{.State.Status}}' day1-status-page`
 8. `docker ps -a` after cleanup
 
+## Example Evidence Screenshot
+
+Use this as a reference for what a successful browser screenshot should look like:
+
+![Docker Day 1 status page](../../evidence-screenshots/docker-day1-status-page.png)
+
 ## Assessment Rubric
 
 | Area | Points |

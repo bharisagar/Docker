@@ -289,6 +289,18 @@ Submit screenshots or terminal output for:
 9. Cleanup commands
 10. Optional challenge endpoint `/owner`
 
+## Example Evidence Screenshots
+
+Use these as references for what successful browser/API screenshots should look like.
+
+Health endpoint:
+
+![Docker Day 2 health endpoint](../../evidence-screenshots/docker-day2-health-api.png)
+
+Version endpoint:
+
+![Docker Day 2 version endpoint](../../evidence-screenshots/docker-day2-version-api.png)
+
 ## Assessment Rubric
 
 | Area | Points |
