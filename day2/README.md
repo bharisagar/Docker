@@ -580,6 +580,10 @@ Best practice:
 
 ## 8. Day 2 Project: Build Your First Custom Image
 
+For the complete real-time project, open:
+
+[Day 2 Real-Time Project: Containerize A Python Health API](./real-time-project/README.md)
+
 ### Goal
 
 Build a custom nginx image, run it, inspect it, and practice container lifecycle commands.

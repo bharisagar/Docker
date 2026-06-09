@@ -292,6 +292,10 @@ docker push yourusername/myapp:v1.0
 
 ## 9. Day 1 Project: Install And Verify Docker
 
+For the complete real-time project, open:
+
+[Day 1 Real-Time Project: Deploy An Incident Status Page With Docker Hub](./real-time-project/README.md)
+
 ### Goal
 
 Install Docker and prove that the Docker Client, Docker Daemon, and Docker Hub flow are working.

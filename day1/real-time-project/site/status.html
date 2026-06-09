@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Status Details</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f5f7fb;
+        color: #172033;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 44px 20px;
+      }
+
+      h1 {
+        font-size: 32px;
+        margin-bottom: 8px;
+      }
+
+      p {
+        color: #58647a;
+        line-height: 1.6;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #ffffff;
+        border: 1px solid #dfe5ef;
+        margin-top: 24px;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid #e7ebf2;
+        padding: 14px;
+        text-align: left;
+      }
+
+      th {
+        background: #eef3ff;
+        color: #25314a;
+      }
+
+      .ok {
+        color: #17603a;
+        font-weight: 700;
+      }
+
+      a {
+        color: #2463eb;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Status Details</h1>
+      <p>
+        This page gives students a practical target to verify after running an nginx
+        container from Docker Hub.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Status</th>
+            <th>Verification</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Static site</td>
+            <td class="ok">Operational</td>
+            <td>Browser opens port 8080</td>
+          </tr>
+          <tr>
+            <td>Nginx container</td>
+            <td class="ok">Running</td>
+            <td><code>docker ps</code></td>
+          </tr>
+          <tr>
+            <td>Container logs</td>
+            <td class="ok">Available</td>
+            <td><code>docker logs day1-status-page</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><a href="/">Back to home</a></p>
+    </main>
+  </body>
+</html>
